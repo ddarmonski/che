@@ -291,9 +291,8 @@ const Chat = () => {
                                     className={styles.chatIcon}
                                     aria-hidden="true"
                                 />
-                                <h1 className={styles.chatEmptyStateTitle}>Welcome to Phoenix GPT</h1>
-                                <h2 className={styles.chatEmptyStateSubtitle}>This chatbot bot is not trained with data</h2>
-                                <h2 className={styles.chatEmptyStateSubtitle}>Try version that knows about Phoenix <a href="https://aaaigptcs.azurewebsites.net/">Here</a></h2>
+                                <h1 className={styles.chatEmptyStateTitle}>Welcome to Phoenix Switzerland GPT</h1>
+                                <h2 className={styles.chatEmptyStateSubtitle}>This chatbot bot is trained with data</h2>
                             </Stack>
                         ) : (
                             <div className={styles.chatMessageStream} style={{ marginBottom: isLoading ? "40px" : "0px"}} role="log">
